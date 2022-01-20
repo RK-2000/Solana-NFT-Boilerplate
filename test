@@ -1,0 +1,5 @@
+npx ts-node js/packages/cli/src/candy-machine-v2-cli.ts upload ./assets --env devnet --keypair ~/.config/solana/devnet.json
+
+npx ts-node js/packages/cli/src/candy-machine-v2-cli.ts create_candy_machine --env devnet --keypair /home/indra/.config/solana/devnet.json 
+
+npx ts-node js/packages/cli/src/candy-machine-v2-cli.ts update_candy_machine --keypair /home/indra/.config/solana/devnet.json --price 1 --date "19 Oct 2021 00:00:00 EST"
